@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#12372a">
+  <title>EntrePausas — movimento que cabe no seu dia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-go="home" aria-label="Ir para o início"><span class="brand-mark">e</span><span>EntrePausas</span></button>
+      <button class="icon-button" id="privacyBtn" aria-label="Ver privacidade">●</button>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <nav class="bottom-nav" id="bottomNav" aria-label="Navegação principal" hidden>
+      <button data-go="home"><span>⌂</span>Hoje</button>
+      <button data-go="overload"><span>◒</span>Sobrecarga</button>
+      <button data-go="progress"><span>▥</span>Progresso</button>
+    </nav>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ihc-microrrotinas
+    runtime: static
+    buildCommand: echo "sem build"
+    staticPublishPath: .
